@@ -1,4 +1,4 @@
-FLAGS=-O1 -g 
+FLAGS=-O1 
 # list .s source files here
 SRCFILES=main.s intadd.s intsub.s intmul.s
 
