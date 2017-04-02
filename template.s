@@ -1,17 +1,15 @@
     .syntax unified
 
     @ Template file for Lab 3
-    @ partner names here
+    @ Team member names here
 
-    .arch armv6
+    .arch armv7
     .fpu vfp 
 
     @ --------------------------------
     .global main
 main:
     @ driver function main lives here, modify this for your other functions
-
-
 
 
     @ You'll need to scan characters for the operation and to determine
@@ -25,7 +23,9 @@ main:
       ldrb    r0, [sp]        @ Put the user's value in r0
       cmp     r0, r1          @ Compare user's answer to char 'y'
       b       loop            @ branch to appropriate location
-
+    @ this only works for character scans. You'll need a different
+    @ format specifier for scanf for an integer ("%d"), and you'll
+    @ need to use the ldr instruction instead of ldrb to load an int.
 yes:
     .byte   'y'
 scanchar:
