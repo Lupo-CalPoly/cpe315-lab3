@@ -3,7 +3,7 @@
     @ Template file for Lab 3
     @ Team member names here
 
-    .arch armv7
+    .arch armv7a
     .fpu vfp 
 
     @ --------------------------------
