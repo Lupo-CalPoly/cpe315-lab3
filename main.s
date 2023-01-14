@@ -5,6 +5,14 @@
 
     // --------------------------------
     .global main
+   /* Include a register usage plan in this comment before the function
+    *   ** or ** give each register a meaningful alias using the syntax:
+    * arg0 .req x0
+    *
+    * If you add additional functions remember to include register usage
+    * plans for them as well.
+    */
+
 main:
     // driver function main lives here, modify this for your other functions
 
