@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* Example template for lab03. Note that this is not complete. */
 int main(int argc, char* argv[])
 {
   int a, b, result;
